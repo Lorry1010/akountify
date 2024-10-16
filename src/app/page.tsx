@@ -5,7 +5,12 @@ import { AccountComparisonTableComponent } from '@/components/account-comparison
 import { ScalingOutreachStepsSectionComponent } from '@/components/scaling-outreach-steps-section'
 import { CalculateSuccessComponent } from '@/components/calculate-success'
 import { PricingPlansComponent } from '@/components/pricing-plans'
-import { TestimonialsComponent } from '@/components/testimonials'
+import {TestimonialsComponent} from '@/components/testimonials'
+import {DiscoveryCallComponent} from '@/components/discovery-call'
+import {FAQComponent} from '@/components/faq'
+import { ContactFormComponent } from '@/components/contact-form'
+import Footer from '@/components/footer'
+
 
 export default function Home() {
   return (
@@ -18,6 +23,11 @@ export default function Home() {
       <CalculateSuccessComponent />
       <PricingPlansComponent />
       <TestimonialsComponent />
+      <DiscoveryCallComponent />
+      <FAQComponent />
+      <ContactFormComponent />
+      <Footer />
+ 
     </>
   )
 }

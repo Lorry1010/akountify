@@ -59,7 +59,7 @@ export function ScalingOutreachStepsSectionComponent() {
         </div>
       </div>
       <button className="fixed bottom-8 right-8 bg-pink-500 text-white p-4 rounded-full shadow-lg hover:bg-pink-600 transition duration-300">
-        <span className="sr-only">Let's Chat!</span>
+        <span className="sr-only">Lets Chat!</span>
         <MessageSquare className="h-6 w-6" />
       </button>
     </section>

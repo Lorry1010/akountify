@@ -8,7 +8,7 @@ export function AccountComparisonTableComponent() {
           <span className="text-pink-500">Real Accounts</span> vs Fake Accounts
         </h2>
         <p className="text-xl text-gray-600 text-center mb-12">
-          Compare the key differences below to see why Akountify's verified profiles are the superior choice.
+          Compare the key differences below to see why Akountify&aposs verified profiles are the superior choice.
         </p>
         <div className="overflow-x-auto">
           <table className="w-full">

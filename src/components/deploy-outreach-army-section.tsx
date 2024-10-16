@@ -26,7 +26,7 @@ export function DeployOutreachArmySectionComponent() {
           Deploy Your Own <span className="text-pink-500">Outreach Army</span>
         </h2>
         <p className="text-xl text-gray-600 text-center mb-12">
-          Our goal is to help companies solve the "scalability" problem by providing stable accounts they can use over the longterm.
+          Our goal is to help companies solve the scalability problem by providing stable accounts they can use over the longterm.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <FeatureCard
@@ -52,7 +52,7 @@ export function DeployOutreachArmySectionComponent() {
         </div>
       </div>
       <button className="fixed bottom-8 right-8 bg-pink-500 text-white p-4 rounded-full shadow-lg hover:bg-pink-600 transition duration-300">
-        <span className="sr-only">Let's Chat!</span>
+        <span className="sr-only">Lets Chat!</span>
         <MessageSquare className="h-6 w-6" />
       </button>
     </section>

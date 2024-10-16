@@ -3,42 +3,13 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import Slider from 'react-slick'
+
 
 // Stellen Sie sicher, dass Sie diese Pakete installiert haben:
 // npm install react-slick slick-carousel
 
 export function LandingPageComponent() {
-  const carouselSettings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 0,
-    cssEase: "linear",
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 4,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 3,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 2,
-        }
-      }
-    ]
-  }
+
 
   const logos = [
     '/placeholder.svg',
@@ -148,7 +119,7 @@ export function LandingPageComponent() {
 
       {/* Chat Button */}
       <button className="fixed bottom-8 right-8 bg-pink-500 text-white p-4 rounded-full shadow-lg hover:bg-pink-600 transition duration-300">
-        <span className="sr-only">Let's Chat!</span>
+        <span className="sr-only">Let&apos;s Chat!</span>
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
         </svg>
